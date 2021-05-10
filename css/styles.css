@@ -1,0 +1,358 @@
+#container {
+    position: absolute;
+}
+
+.main {
+    width: 100vw;
+    height: 200vh;
+    position: relative;
+    top: 0px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Jost', sans-serif;
+    font-size: 72px;
+}
+
+p {
+    font-family: 'Jost', sans-serif;
+}
+
+.location-hz {
+    font-size: 64px;
+    color: white;
+    position: absolute;    
+    transform:rotate(-90deg);
+    z-index: 3;
+    text-align: right;
+    text-shadow: 2px 2px 5px rgba(63,107,169, 0.5);
+}
+
+#banff {
+    top: 150px;
+    left: 230px;
+}
+
+#greatOcean {
+    top: 260px;
+    left: 115px;
+}
+
+#pamukkale {
+    top: 220px;
+    left: 160px;
+}
+
+#pitons {
+    top: 155px;
+    left: 225px;
+}
+
+#oia {
+    top: 105px;
+    left: 275px;
+}
+
+#torres {
+    font-size: 60px;
+    top: 310px;
+    left: 70px;
+}
+
+#krabi {
+    top: 125px;
+    left: 255px;
+}
+
+#hawa {
+    top: 255px;
+    left: 130px;
+    text-shadow: 2px 2px 5px rgba(63,107,169, 0.75);
+}
+
+#blueLagoon {
+    top: 270px;
+    left: 110px;
+}
+
+#fiordland {
+    top: 230px;
+    left: 160px;
+}
+
+
+
+
+.wipe {
+    width: 100vw;
+    height: 200vh;
+    position: relative;
+    background: linear-gradient(to bottom, white 0%, white 50%, black 50%, black 100%);
+}
+
+.number {
+    font-size: 800px;
+    color: white;
+    text-align: center;
+    mix-blend-mode: difference;
+    position: fixed;
+    top: -850px;
+    left: 120px;
+}
+
+#number10 {
+    letter-spacing: -100px;
+}
+
+#numberWhite {
+    color: white;
+    z-index: 4;
+    position: absolute;
+    left: -498px;
+}
+
+.heroImg {
+    position: absolute;
+    top: 90px;
+    left: 330px;
+    z-index: 2;
+}
+
+
+.info {
+    width: 830px;
+    position: absolute;
+    text-align: left;
+    color: #fff;
+    background: transparent;
+    top: 1100px;
+    left: 560px;
+    mix-blend-mode: difference;
+    z-index: 100;
+}
+
+.coordinates {
+    font-size: 64px;
+    position: absolute;    
+    transform:rotate(-90deg);
+    /*top: -300px;*/
+    left: -480px;
+    mix-blend-mode: difference;
+    z-index: 5;
+}
+
+.title {
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    position: relative;
+    top: -70px;
+}
+
+.description {
+    position: relative;
+    font-size: 36px;
+    font-weight: lighter;
+    top: -90px;
+}
+
+.section {
+    width: 1440px;
+    height: 800px;
+    position: relative;
+    background-color: black;
+}
+
+text {
+    fill: #000;
+    font-size: 48px;
+    font-family: 'Jost', sans-serif;
+}
+
+.curveWord {
+    fill: transparent;
+}
+
+.curved-div {
+    background: transparent;
+    text-align: center;
+    position: relative;
+    top: -325px;
+    z-index: 119;
+}
+
+.curved-divupper {
+    background: transparent;
+    height: 300px;
+    position: relative;
+    top: 230px;
+    z-index: 118;
+}
+
+.location {
+    position: relative;
+    background: transparent;
+    top: -15px;
+    z-index: 120;
+
+}
+
+.img1 {
+    width: 515px;
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    z-index: 121;
+}
+
+
+.img2 {
+    width: 700px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    z-index: 121;
+}
+
+.img3 {
+    width: 600px;
+    position: absolute;
+    top: 230px;
+    left: 730px;
+    z-index: 121;
+}
+
+#balloon {
+    width: 450px;
+    top: 200px;
+}
+
+#anse {
+    width: 550px;
+}
+
+#village {
+    width: 500px;
+}
+
+#towers {
+    width: 600px;
+}
+
+#tiger {
+    width: 600px;
+}
+
+#tripolia {
+    width: 600px;
+}
+
+#face {
+    width: 500px;
+}
+
+#sauna {
+    width: 600px;
+}
+
+#glowworm {
+    top: 180px;
+}
+
+.squiggle {
+    width: 100%;
+    opacity: 50%;
+    position: absolute;
+    z-index: 120;
+}
+
+#squiggle1 {
+    top: 300px;
+}
+
+#squiggle2 {
+    top: 250px;
+}
+
+#squiggle3 {
+    top: 200px;
+}
+
+
+.footer {
+    width: 1440px;
+    height: 200px;
+    background-color: black; 
+    position: relative;
+    text-align: center;
+    /*top: 50px;*/
+}
+
+
+.home {
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+    text-decoration: underline;
+    top: 0px;
+    left: -50px;
+    opacity: 1;
+}
+
+
+#btn {
+    font-family: 'Jost', sans-serif;
+  display: block;
+  position: absolute;
+  background-color: transparent;
+  margin: auto;
+  font-size: 40px;
+  color: white;
+  font-weight: lighter;
+  text-decoration: underline;
+  border: none;
+  top: 50px;
+  left: 655px;
+  opacity: 1;
+}
+
+#btn:hover {
+    font-weight: normal;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 100%;
+  background-color: white;
+  height: 0px;
+  width: 0px;
+  margin: 10px auto;
+  top: -0px;
+  left: 0px;
+  z-index: 300;
+}
+
+.grow {
+  animation-duration: 2s;
+  animation-name: changeSize;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+}
+
+
+
+@keyframes changeSize {
+    0% {width: 0px; height: 0px; top: 200px; left: 740px;}
+    100% { width: 3000px; height: 3000px; top: -2000px; left: -800px;}
+}
+
+
+
+
+
+
+
+
+
+
